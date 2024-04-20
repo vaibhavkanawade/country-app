@@ -1,0 +1,56 @@
+/* these style for country list button  */
+#listbutton {
+    width: 100%;
+    height: 62%;
+    background-color: #038080;
+    color: white;
+    margin-right: 20px;
+    border: none;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+#listbutton:hover {
+    background-color: white;
+    color: #038080;
+}
+
+/* these style for listmodel popup  */
+#listmodel {
+    position: fixed;
+    top: 60px;
+    left: 228px;
+    border-radius: 5px;
+    width: 23%;
+    height: 650px;
+    border: 2px solid rgb(1, 100, 100);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    visibility: hidden;
+
+}
+
+/* these is for style perticular country name  */
+#nameofcountrydiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid skyblue;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+
+#nameofcountry {
+    align-self: center;
+    color: rgb(80, 79, 79);
+}
+
+#note {
+    background-color: #038080;
+    color: white;
+}

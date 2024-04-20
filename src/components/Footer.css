@@ -1,0 +1,15 @@
+#footerdiv {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(1, 66, 66);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(115, 210, 248);
+}

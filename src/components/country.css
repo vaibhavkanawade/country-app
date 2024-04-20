@@ -1,0 +1,132 @@
+/* upper navbar div */
+/* https://codejudge-question-artifacts-dev.s3.amazonaws.com/q-1709/data.json */
+#searchbar {
+
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border: 1px solid teal;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 91, 91);
+    position: fixed;
+    top: 0;
+
+
+}
+
+#searchform {
+    width: 40%;
+    height: 50%;
+    display: flex;
+}
+
+/* input bar style */
+#search-input {
+    width: 78%;
+    height: 100%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid rgb(3, 155, 155);
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: 'lato', sans-serif;
+    border-radius: 10px;
+}
+
+/* searcg button style  */
+#search-btn {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(3, 128, 128);
+    border: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: 'lato', sans-serif;
+    border-radius: 5px;
+}
+
+#search-btn:hover {
+    background-color: white;
+    color: rgb(2, 91, 91);
+}
+
+/* lower main body to display all countries */
+#countrydisplay {
+    margin: auto;
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(4, 22%);
+    width: 70%;
+    border: 2px solid rgb(2, 91, 91);
+    justify-content: space-around;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+/* singlr card for country details  */
+#country-card {
+    width: 100%;
+    height: 290px;
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 25px;
+    padding: 4%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: auto;
+    /* scrollbar-width: 2px;
+    scrollbar-color: teal; */
+
+}
+
+#country-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgb(60, 230, 74) 0px 5px 10px;
+}
+
+#countryflag {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+
+}
+
+#countryname {
+    color: rgb(1, 94, 94);
+}
+
+#capital {
+    font-size: 18px;
+    /* line-height: 0%; */
+}
+
+#population {
+    font-size: 15px;
+    /* line-height: 0%; */
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* for sorting method select tag  */
+#selectsort {
+    background: transparent;
+    border: none;
+    color: white;
+    background-color: rgb(2, 91, 91);
+    margin-left: 30px;
+}
+
+#selectfilter {
+    background: transparent;
+    border: none;
+    color: white;
+    background-color: rgb(2, 91, 91);
+    margin-left: 30px;
+}

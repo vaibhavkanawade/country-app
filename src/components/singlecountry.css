@@ -1,0 +1,113 @@
+/* these style for model popup window  */
+#model {
+    width: 50%;
+    height: 500px;
+    border: 2px solid rgb(1, 97, 97);
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    visibility: hidden;
+    background-color: rgb(250, 250, 250);
+    box-sizing: border-box;
+    padding: 1%;
+    border-radius: 5px;
+
+}
+
+/* for model upper name  */
+#upperdiv {
+    width: 100%;
+    height: 12%;
+    text-align: center;
+    overflow: auto;
+    color: rgb(2, 94, 94);
+}
+
+/* these is for middle div of flag image and map  */
+#middlediv {
+    width: 100%;
+    height: 46%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* these id for lower info of the country */
+#lowerdiv {
+    width: 100%;
+    height: 37%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 48%);
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+/* these is of flag image div  */
+#modelflag {
+    width: 45%;
+    height: 100%;
+    /* margin-right: 10%; */
+    border: 1px solid gray;
+}
+
+/* these is for map  */
+#modelmap {
+    width: 45%;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+/* for information card all */
+.infocard {
+    border-radius: 10px;
+    background-color: rgb(241, 253, 255);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+}
+
+/* for single information card */
+#info1 {
+    border-bottom: 5px solid rgb(255, 193, 78);
+}
+
+#info2 {
+    border-bottom: 5px solid rgb(252, 123, 123);
+}
+
+#info3 {
+    border-bottom: 5px solid pink;
+}
+
+#info4 {
+    border-bottom: 5px solid violet;
+}
+
+#info5 {
+    border-bottom: 5px solid rgb(126, 126, 255);
+}
+
+#info6 {
+    border-bottom: 5px solid rgb(255, 255, 106);
+}
+
+#close {
+    width: 6%;
+    height: 25px;
+    background-color: rgb(210, 6, 6);
+    color: white;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#close:hover {
+    border: 2px solid rgb(210, 6, 6);
+    background-color: white;
+    color: rgb(210, 6, 6);
+    cursor: pointer;
+}
